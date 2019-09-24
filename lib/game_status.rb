@@ -65,7 +65,6 @@ end
      return "X"
  else won?(board)
     return "O"
-    end
-  end
+   end
 end
   
