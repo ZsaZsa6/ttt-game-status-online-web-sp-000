@@ -66,6 +66,5 @@ end
     "O" = turn_count(board) % 3 == 0
 end
   draw?(board)
-end
 
   
