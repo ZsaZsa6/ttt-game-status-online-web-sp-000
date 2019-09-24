@@ -63,7 +63,7 @@ end
   def winner(board)
  if won?(board) && turn_count(board) % 2 == 0 
      return "X"
- if won?(board) && turn_count(board) % 3 == 0
+ else won?(board)
     return "O"
   else
     end
