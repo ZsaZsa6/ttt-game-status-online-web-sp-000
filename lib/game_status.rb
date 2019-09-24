@@ -61,10 +61,11 @@ end
 end
 
   def winner(board)
-   won?(board)
+ if won?(board)
     "X" = turn_count(board) % 2 == 0 
     "O" = turn_count(board) % 3 == 0
-end
+else
   draw?(board)
-
+  end
+end
   
