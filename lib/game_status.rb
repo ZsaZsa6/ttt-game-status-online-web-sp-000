@@ -68,3 +68,7 @@ end
       return "O"
   else
   draw?(board)
+  end 
+end
+
+  
