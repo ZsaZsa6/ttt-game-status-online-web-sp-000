@@ -49,19 +49,10 @@ end
 def over?(board)
   won?(board) || draw?(board) || full?(board)
 end
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def turn_count(board)
-  counter = 0 
-  board.each do |block|
-    if block == "X" || block == "O"
-      counter += 1 
-   end
-end  
- counter
-end
+
 
   def winner(board)
- if won?(board) && turn_count(board) % 2 == 0 
+ if won?(board) 
      return "X"
  elsif won?(board)
     return "O"
