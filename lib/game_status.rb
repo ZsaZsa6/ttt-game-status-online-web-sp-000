@@ -63,9 +63,9 @@ end
   def winner(board)
     won?(board)
     if turn_count(board) % 2 == 0 
-      return "X"
+      puts "X"
     elsif
-      return "O"
+      puts "O"
   else
   draw?(board)
   end 
