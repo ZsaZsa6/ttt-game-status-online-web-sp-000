@@ -49,7 +49,7 @@ end
 def over?(board)
   won?(board) || draw?(board) || full?(board)
 end
-board = 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def turn_count(board)
   counter = 0 
   board.each do |block|
