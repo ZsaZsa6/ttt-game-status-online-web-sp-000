@@ -68,5 +68,4 @@ end
     
   draw?(board)
   end
-end
   
