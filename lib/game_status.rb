@@ -46,5 +46,5 @@ def draw?(board)
 !won?(board) && full?(board) 
 end
 
-# def over?(board)`
-#   board == won?(board) || board == draw?(board)
+def over?(board)
+  board == won?(board) || board == draw?(board)
