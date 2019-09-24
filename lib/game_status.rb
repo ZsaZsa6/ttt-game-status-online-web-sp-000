@@ -60,13 +60,11 @@ end
  counter
 end
 
-  def current_player(board)
+  def winner(board)
+    won?(board)
     if turn_count(board) % 2 == 0 
       return "X"
-    else
+    elsif
       return "O"
-    end
-  end
-def winner(board)
-  
+  else
   draw?(board)
